@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\JULIAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

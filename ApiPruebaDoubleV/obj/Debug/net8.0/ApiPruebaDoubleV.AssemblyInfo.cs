@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiPruebaDoubleV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e2fcce1f72a878fe659f563437f59e38bd932ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiPruebaDoubleV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiPruebaDoubleV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

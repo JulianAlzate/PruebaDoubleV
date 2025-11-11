@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iEFj1btyTuI=",
+  "dgSpecHash": "sQtx0khmTLw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JULIAN\\Documents\\Prueba\\ApiPruebaDoubleV\\ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj",
+  "projectFilePath": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JULIAN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\JULIAN\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
