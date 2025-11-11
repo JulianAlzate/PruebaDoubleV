@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  redis:
+    container_name: rediStopPrueba
+    image: redis
+    restart: always
+    ports:
+      - "65530:65530"
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOST: redis
