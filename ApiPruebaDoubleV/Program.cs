@@ -1,19 +1,59 @@
+using BLL.Interface;
+using BLL.RN;
+using DataLayer.Interface;
+using DataLayer.RN;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetSection("Redis:Configuration").Value;
+    options.InstanceName = "AppCache_";
+});
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddScoped<ITicketsServices, TicketsServices>();
+builder.Services.AddScoped<IEjecutarRepository, EjecutarRepository>();
+builder.Services.AddSingleton<IRedisCacheService, RedisCacheService>();
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Api Prueba DoubleV",
+        Version = "v1",
+        Description = "Prueba DoubleV",
+    });
+
+
+});
 
 var app = builder.Build();
+app.UseSwagger(options =>
+{
+    options.SerializeAsV2 = true;
+});
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Prueba DoubleV");
+    });
+}
+else
+{
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Prueba DoubleV");
+        c.RoutePrefix = string.Empty;
+    });
 }
 
 app.UseHttpsRedirection();

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66A48A29-24B7-4412-BA80-682E14441DC6}|ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj|c:\\users\\julian\\source\\repos\\pruebadoublev\\apipruebadoublev\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A48A29-24B7-4412-BA80-682E14441DC6}|ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj|solutionrelative:apipruebadoublev\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\julian\\source\\repos\\pruebadoublev\\bll\\rn\\ticketsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\rn\\ticketsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A48A29-24B7-4412-BA80-682E14441DC6}|ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj|c:\\users\\julian\\source\\repos\\pruebadoublev\\apipruebadoublev\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{66A48A29-24B7-4412-BA80-682E14441DC6}|ApiPruebaDoubleV\\ApiPruebaDoubleV.csproj|solutionrelative:apipruebadoublev\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}|DataLayer\\DataLayer.csproj|c:\\users\\julian\\source\\repos\\pruebadoublev\\datalayer\\rn\\ejecutarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\rn\\ejecutarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\ApiPruebaDoubleV\\docker-compose.yml",
+              "RelativeDocumentMoniker": "ApiPruebaDoubleV\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\ApiPruebaDoubleV\\docker-compose.yml",
+              "RelativeToolTip": "ApiPruebaDoubleV\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-12T02:47:09.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketsServices.cs",
+              "DocumentMoniker": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\BLL\\RN\\TicketsServices.cs",
+              "RelativeDocumentMoniker": "BLL\\RN\\TicketsServices.cs",
+              "ToolTip": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\BLL\\RN\\TicketsServices.cs",
+              "RelativeToolTip": "BLL\\RN\\TicketsServices.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwDIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:13:05.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EjecutarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\RN\\EjecutarRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\RN\\EjecutarRepository.cs",
+              "ToolTip": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\DataLayer\\RN\\EjecutarRepository.cs",
+              "RelativeToolTip": "DataLayer\\RN\\EjecutarRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:16:25.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\ApiPruebaDoubleV\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "ApiPruebaDoubleV\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\JULIAN\\source\\repos\\PruebaDoubleV\\ApiPruebaDoubleV\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "ApiPruebaDoubleV\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:11:05.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
