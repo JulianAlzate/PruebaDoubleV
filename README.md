@@ -43,7 +43,5 @@ SELECT * FROM ObtenerTickets(NULL, 1, 10);
 # en caso de querer filtrar por uno enespecifico:
 SELECT * FROM ObtenerTickets('julian', 1, 10);
 
-# se esta forma se pueden ejecutar las demas funciones
-
-
-# tener en cuenta los puertos, en caso de que cambien, debe de cambiarse en el setting y en el test, y poner el creado en el docker
+# se esta forma se pueden ejecutar las demas funciones, se llama por el nombre de la funcion y se le pasan los parametros, segun el init.
+# # tener en cuenta los puertos, en caso de que cambien, debe de cambiarse en el setting y en el test, y poner el creado en el docker
