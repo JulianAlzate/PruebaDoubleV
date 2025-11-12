@@ -3,7 +3,7 @@
 # Instalar docker
 https://www.docker.com/products/docker-desktop/
 
-# Una vez instalado el docker, tomar el archivo nombrado init.sql, y establecerlo en una ruta ejemplo de mi caso:C:\docker_init\init.sql en caso de que esta ruta cambie. debe de ser remplazada en la parte inferior donde esta la creacion de bd de docker, ya que este contiene funciones y demas
+# Una vez instalado el docker, tomar el archivo nombrado init.sql, y establecerlo en una ruta ejemplo de mi caso: C:\docker_init\init.sql en caso de que esta ruta cambie. debe de ser remplazada en la parte inferior donde esta la creaciòn de bd de docker, ya que este contiene funciones y demas
 
 # Crear el redis en el CMD ejecutar el comando:
 ``` 
@@ -35,7 +35,11 @@ docker exec -it postgres-server psql -U postgres -d PruebaDoubleV
 ``` 
 
 # Verificar creación tabla:
+``` 
+
 \dt
+``` 
+
 
 # Verificar creación funciones:
 ``` 
@@ -45,7 +49,7 @@ docker exec -it postgres-server psql -U postgres -d PruebaDoubleV
 # En caso de que luego de ejecutar el  \df se congele, escribir q y dar enter para hacer las demás consultas
 
 
-# Para ejecucion de consultar y validacion de creacion y demas, ejecutar para consultar registros:
+# Para ejecuciòn de consultar y validaciòn de creaciòn y demas, ejecutar para consultar registros:
 ``` 
 SELECT * FROM ObtenerTickets(NULL, 1, 10);
 ```
@@ -55,4 +59,4 @@ SELECT * FROM ObtenerTickets(NULL, 1, 10);
 SELECT * FROM ObtenerTickets('julian', 1, 10);
 ``` 
 
-# De esta forma se pueden ejecutar las demas funciones, se llama por el nombre de la funcion y se le pasan los parametros, segun el init,tener en cuenta los puertos, en caso de que cambien, debe de cambiarse en el setting y en el test, y poner el creado en el docker
+# De esta forma se pueden ejecutar las demas funciones, se llama por el nombre de la funciòn y se le pasan los parametros, segun el init,tener en cuenta los puertos, en caso de que cambien, debe de cambiarse en el setting y en el test, y poner el creado en el docker
