@@ -36,7 +36,6 @@ docker exec -it postgres-server psql -U postgres -d PruebaDoubleV
 
 # Verificar creación tabla:
 ``` 
-
 \dt
 ``` 
 
