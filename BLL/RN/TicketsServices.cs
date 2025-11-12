@@ -65,8 +65,14 @@ namespace BLL.RN
                     p_estatus = ticketEditarDto.Estatus
 
                 };
-                
-                return await _ejecutarRepository.ExecuteScalarAsync<int>("editarTicket", conexion, parametros); // Devuelve 0 si fue NULL (no se encontró)
+
+                //return await _ejecutarRepository.ExecuteScalarAsync<int>("editarTicket", conexion, parametros); // Devuelve 0 si fue NULL (no se encontró)
+                var resultado = await _ejecutarRepository.ExecuteScalarAsync<int?>(
+      "editarTicket",
+      conexion,
+      parametros);
+
+                return resultado ?? 0; // Conversión segura de int? a int
             }
             catch (Exception ex)
             {

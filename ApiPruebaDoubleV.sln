@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsServicesTests", "TicketsServicesTests\TicketsServicesTests.csproj", "{7D7DD02A-D586-4AC0-906E-2B281E42A48B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8206475D-A8DE-B22F-E7BA-FA27B1C6AF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7DD02A-D586-4AC0-906E-2B281E42A48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7DD02A-D586-4AC0-906E-2B281E42A48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7DD02A-D586-4AC0-906E-2B281E42A48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7DD02A-D586-4AC0-906E-2B281E42A48B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
